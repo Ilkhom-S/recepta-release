@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" width="268" height="64" role="img" aria-label="Recepta">
+  <defs>
+    <linearGradient id="receptaGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="64" y2="64">
+      <stop offset="0" stop-color="#19C5B4"/><stop offset="1" stop-color="#0B7C90"/>
+    </linearGradient>
+    <mask id="receptaSplit"><rect width="64" height="64" fill="#fff"/><path d="M40 31.5 H48" stroke="#000" stroke-width="3.4"/></mask>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#receptaGrad)"/>
+  <g fill="#FFFFFF" mask="url(#receptaSplit)"><rect x="16" y="37" width="8" height="13" rx="4"/><rect x="27.5" y="29" width="8" height="21" rx="4"/><rect x="40" y="14" width="8" height="36" rx="4"/></g>
+  <text x="82" y="35" font-family='Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' font-size="27" font-weight="600" letter-spacing="-0.6" fill="#0B2239">Recepta</text>
+  <text x="83.5" y="51" font-family='Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif' font-size="9.5" font-weight="500" letter-spacing="2.4" fill="#5B7386">PHARMA FIELD SALES</text>
+</svg>

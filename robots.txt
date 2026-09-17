@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ilkhom-s.github.io/recepta-release/sitemap.xml

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Recepta">
+  <defs><mask id="receptaSplit"><rect width="64" height="64" fill="#fff"/><path d="M40 31.5 H48" stroke="#000" stroke-width="3.4"/></mask></defs>
+  <g fill="currentColor" mask="url(#receptaSplit)"><rect x="16" y="37" width="8" height="13" rx="4"/><rect x="27.5" y="29" width="8" height="21" rx="4"/><rect x="40" y="14" width="8" height="36" rx="4"/></g>
+</svg>

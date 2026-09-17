@@ -1,0 +1,6 @@
+# Deliberately empty. The root chooser (/) is client-side by design (site
+# spec §2.5) and Cloudflare Pages' _redirects cannot branch on
+# Accept-Language, so no rule belongs here: a rule for / would shadow the
+# chooser and its <noscript> fallback to /ru/. Language-aware redirects at
+# the edge are a Cloudflare Redirect Rule on http.request.accepted_languages,
+# never this file.

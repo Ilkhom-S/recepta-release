@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="Recepta">
+  <defs>
+    <linearGradient id="receptaGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1024" y2="1024">
+      <stop offset="0" stop-color="#19C5B4"/><stop offset="1" stop-color="#0B7C90"/>
+    </linearGradient>
+    <mask id="receptaSplit"><rect width="1024" height="1024" fill="#fff"/><path d="M640 504 H768" stroke="#000" stroke-width="54"/></mask>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#receptaGrad)"/>
+  <g fill="#FFFFFF" mask="url(#receptaSplit)">
+    <rect x="256" y="592" width="128" height="208" rx="64"/>
+    <rect x="440" y="464" width="128" height="336" rx="64"/>
+    <rect x="640" y="224" width="128" height="576" rx="64"/>
+  </g>
+</svg>
